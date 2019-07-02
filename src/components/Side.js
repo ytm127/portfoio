@@ -29,7 +29,7 @@ class Side extends React.Component {
                 <div style={{ position: 'sticky', top: '5em' }}>
                     <Heading>Yutaro Thomas Morita</Heading>
                     <hr />
-                    <img style={imageStyle} src={process.env.PUBLIC_URL + 'images/profile.jpg'} /><br />
+                    <img style={imageStyle} src='https://github.com/ytm127/portfoio/blob/master/public/images/profile.JPG?raw=true' /><br />
                     <p style={center}>
                         tym479@gmail.com <br />
                         479.925.8596 <br /><br />

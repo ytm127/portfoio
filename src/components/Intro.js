@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heading, Button } from 'react-bulma-components/full';
 
-const imageURL = 'images/withMom.jpg';
+const imageURL = 'https://github.com/ytm127/portfoio/blob/master/public/images/withMom.JPG?raw=true';
 
 const bodyStyle = {
     backgroundImage: 'url(' + imageURL + ')',
