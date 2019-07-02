@@ -7,6 +7,7 @@ const bodyStyle = {
     backgroundImage: 'url(' + imageURL + ')',
     backgroundRepeat: 'no-repeat',
     backgroundPosition: '50% 25%',
+    backgroundSize: 'cover',
     padding: '2rem',
     height: '68%'
 }
@@ -22,7 +23,11 @@ class Intro extends React.Component {
                         <b>Hello there!</b> <br />
                     </Heading>
                     <Heading>Fullstack web developer / life-long learner / problem solver</Heading>
-                    <Button size="medium" outlined rounded color="info">Resume</Button>
+                    <Button
+                        size="medium" outlined rounded color="info"
+                        renderAs="a" href="https://www.slideshare.net/slideshow/embed_code/key/L4t14QEGcpLPDE">
+                        Resume
+                    </Button>
                 </div>
             </div>
         )

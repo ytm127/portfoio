@@ -35,9 +35,9 @@ class Side extends React.Component {
                         479.925.8596 <br /><br />
                     </p>
                     <div style={center}>
-                        <Button rounded>Github</Button>
-                        <Button rounded>Linkedin</Button>
-                        <Button rounded>Facebook</Button>
+                        <Button renderAs="a" href="https://github.com/ytm127/" rounded style={{ margin: '0 .25em 0 .25em' }}>Github</Button>
+                        <Button renderAs="a" href="https://www.linkedin.com/in/thomasmorita/" rounded style={{ margin: '0 .25em 0 .25em' }}>Linkedin</Button>
+                        <Button renderAs="a" href="https://www.facebook.com/thomas.morita" rounded style={{ margin: '0 .25em 0 .25em' }}>Facebook</Button>
                     </div>
                     <br />
                     <div class="menu sticky" style={{ textAlign: 'center' }}>
