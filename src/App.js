@@ -1,24 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Columns, Section } from "react-bulma-components/full";
+import Side from './components/Side';
+import AboutMe from './components/AboutMe';
+import Intro from './components/Intro';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Columns gapless>
+        <Columns.Column size={3}>
+          <Side />
+        </Columns.Column>
+
+        <Columns.Column size={9}>
+          <Intro />
+          <Section>
+            <AboutMe />
+          </Section>
+
+          <Section>
+            <Timeline />
+          </Section>
+        </Columns.Column>
+      </Columns>
     </div>
   );
 }
