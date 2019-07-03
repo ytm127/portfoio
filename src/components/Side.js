@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Heading, Button, Columns, Image } from 'react-bulma-components/full';
+import '../../src/Side.css';
 
 // styles
 const center = {
@@ -25,11 +26,15 @@ const fontStyle = {
     fontFamily: 'DM Serif Display serif'
 };
 
+
+
 class Side extends React.Component {
+
+
     render() {
         return (
-            <div style={componentStyle}>
-                <div style={{ position: 'sticky', top: '3em' }}>
+            <div className="sideBar" style={componentStyle}>
+                <div className="sideContent" style={{ position: 'sticky', top: '3em' }}>
                     <Heading style={center, fontStyle} size='2'>Yutaro Thomas Morita</Heading>
                 <hr />
                 <img style={imageStyle} src='https://github.com/ytm127/portfoio/blob/master/public/images/profile.JPG?raw=true' /><br />

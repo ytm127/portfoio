@@ -1,0 +1,5 @@
+/* @media (max-width: 768px) {
+    .sideContent { display: none; }
+    .sideBar:before { content: "\2261"; font-size: 30pt; }
+    .sideBar { display: block; font-size: 12pt;}
+    } */
