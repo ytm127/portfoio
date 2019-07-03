@@ -12,6 +12,10 @@ const bodyStyle = {
     height: '50%'
 }
 
+const fontStyle = {
+    fontFamily: 'DM Serif Display serif'
+};
+
 
 
 class Intro extends React.Component {
@@ -19,10 +23,10 @@ class Intro extends React.Component {
         return (
             <div id="intro" style={bodyStyle}>
                 <div style={{ marginTop: '8em' }}>
-                    <Heading size={2}>
-                        <b>Hello there!</b> <br />
+                    <Heading size={1}>
+                        <b style={fontStyle}>Hello there!</b> <br />
                     </Heading>
-                    <Heading>Fullstack web developer / life-long learner / problem solver</Heading>
+                    <Heading style={fontStyle}>Fullstack web developer / life-long learner / problem solver</Heading>
                     <Button
                         size="medium" outlined rounded color="info"
                         renderAs="a" href="https://www.slideshare.net/slideshow/embed_code/key/L4t14QEGcpLPDE">

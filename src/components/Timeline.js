@@ -6,11 +6,15 @@ const cardStyle = {
     marginTop: "1em"
 }
 
+const fontStyle = {
+    fontFamily: 'DM Serif Display serif'
+};
+
 class Timeline extends React.Component {
     render() {
         return (
             <div id="timeline">
-                <Heading><b>Timeline</b></Heading>
+                <Heading style={fontStyle}><b>Timeline</b></Heading>
                 <ul>
                     <Card style={cardStyle}>
                         <li>

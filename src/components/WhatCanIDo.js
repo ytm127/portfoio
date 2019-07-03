@@ -7,6 +7,10 @@ const center = {
     textAlign: 'center'
 };
 
+const fontStyle = {
+    fontFamily: 'DM Serif Display serif'
+};
+
 const card1 = {
     title: "Web Development",
     data: "I love creating clean and functional websites and web apps. Right now, I enjoy using Javascript, React, Bootstrap, and Bulma. ",
@@ -30,7 +34,7 @@ class WhatCanIdo extends React.Component {
     render() {
         return (
             <div>
-                <Heading size={4}>What can I do?</Heading>
+                <Heading size={4} style={fontStyle}>What can I do?</Heading>
                 <Columns>
                     <Columns.Column>
                         <SkillsCard cardInfo={card1} />
