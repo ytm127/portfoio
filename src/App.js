@@ -4,7 +4,9 @@ import Side from './components/Side';
 import AboutMe from './components/AboutMe';
 import Intro from './components/Intro';
 import Timeline from './components/Timeline';
-import Footer from './components/Footer';
+import './App.css';
+
+
 
 function App() {
   return (
@@ -15,6 +17,7 @@ function App() {
         </Columns.Column>
 
         <Columns.Column size={9}>
+          {/* <div id="page-wrap"> */}
           <Intro />
           <Section>
             <AboutMe />
@@ -23,6 +26,7 @@ function App() {
           <Section>
             <Timeline />
           </Section>
+          {/* </div> */}
         </Columns.Column>
       </Columns>
     </div>

@@ -9,7 +9,7 @@ const bodyStyle = {
     backgroundPosition: '50% 25%',
     backgroundSize: 'cover',
     padding: '2rem',
-    height: '50%'
+    height: '35%'
 }
 
 const fontStyle = {
