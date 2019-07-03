@@ -26,8 +26,8 @@ class Side extends React.Component {
     render() {
         return (
             <div style={componentStyle}>
-                <div style={{ position: 'sticky', top: '5em' }}>
-                    <Heading>Yutaro Thomas Morita</Heading>
+                <div style={{ position: 'sticky', top: '3em' }}>
+                    <Heading style={center} size='2'>Yutaro Thomas Morita</Heading>
                     <hr />
                     <img style={imageStyle} src='https://github.com/ytm127/portfoio/blob/master/public/images/profile.JPG?raw=true' /><br />
                     <p style={center}>
