@@ -6,7 +6,7 @@ const imageURL = 'https://github.com/ytm127/portfoio/blob/master/public/images/w
 const bodyStyle = {
     backgroundImage: 'url(' + imageURL + ')',
     backgroundRepeat: 'no-repeat',
-    backgroundPosition: '50% 25%',
+    backgroundPosition: '10% 25%',
     backgroundSize: 'cover',
     padding: '2rem',
     height: '35%'
