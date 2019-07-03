@@ -11,7 +11,7 @@ class SkillsCard extends React.Component {
     render() {
         return (
             <div>
-                <Card>
+                <Card style={{ borderBottom: `solid .5em ${this.props.cardInfo.color}` }}>
                     <Heading size={6} style={{ textAlign: 'center' }}><br />{this.props.cardInfo.title}</Heading><hr />
                     <p style={cardStyle}>{this.props.cardInfo.data}</p><br />
                 </Card>

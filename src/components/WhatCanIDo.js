@@ -9,17 +9,20 @@ const center = {
 
 const card1 = {
     title: "Web Development",
-    data: "I love creating clean and functional websites and web apps. Right now, I enjoy using Javascript, React, Bootstrap, and Bulma. "
+    data: "I love creating clean and functional websites and web apps. Right now, I enjoy using Javascript, React, Bootstrap, and Bulma. ",
+    color: '#70C1B3'
 };
 
 const card2 = {
     title: "Data Structure and Algorithms",
-    data: "Coming from a computer science background in college, I have a great grasp on DSA and multiple tech paradigms and concepts."
+    data: "Coming from a computer science background in college, I have a great grasp on DSA and multiple tech paradigms and concepts.",
+    color: '#FFE066'
 };
 
 const card3 = {
     title: "Software Engineering",
-    data: "I also have experience creating fully fleshed out end-to-end software using python, Django/flask, RoR, java, and SQL databases."
+    data: "I also have experience creating fully fleshed out end-to-end software using python, Django/flask, RoR, java, and SQL databases.",
+    color: '#247BA0'
 };
 
 
