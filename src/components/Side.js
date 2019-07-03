@@ -37,7 +37,9 @@ class Side extends React.Component {
                 <div className="sideContent" style={{ position: 'sticky', top: '3em' }}>
                     <Heading style={center, fontStyle} size='2'>Yutaro Thomas Morita</Heading>
                 <hr />
-                <img style={imageStyle} src='https://github.com/ytm127/portfoio/blob/master/public/images/profile.JPG?raw=true' /><br />
+                <div id="profilePic">
+                    <img style={imageStyle} src='https://github.com/ytm127/portfoio/blob/master/public/images/profile.JPG?raw=true' /><br />
+                </div>
                 <p style={center}>
                     tym479@gmail.com <br />
                     479.925.8596 <br /><br />
