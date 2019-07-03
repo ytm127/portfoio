@@ -9,17 +9,17 @@ const center = {
 
 const card1 = {
     title: "Web Development",
-    data: "information about web development"
+    data: "I love creating clean and functional websites and web apps. Right now, I enjoy using Javascript, React, Bootstrap, and Bulma. "
 };
 
 const card2 = {
     title: "Data Structure and Algorithms",
-    data: "information about cs and ds and algo"
+    data: "Coming from a computer science background in college, I have a great grasp on DSA and multiple tech paradigms and concepts."
 };
 
 const card3 = {
     title: "Software Engineering",
-    data: "information about software and rest and stuff rest api mvc all that good stuff that makes me awesome"
+    data: "I also have experience creating fully fleshed out end-to-end software using python, Django/flask, RoR, java, and SQL databases."
 };
 
 
@@ -27,7 +27,7 @@ class WhatCanIdo extends React.Component {
     render() {
         return (
             <div>
-                <Heading>What can I do?</Heading>
+                <Heading size={4}>What can I do?</Heading>
                 <Columns>
                     <Columns.Column>
                         <SkillsCard cardInfo={card1} />

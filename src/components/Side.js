@@ -10,7 +10,7 @@ const componentStyle = {
     // backgroundColor: '#dbffdf',
     backgroundColor: '#f5faff',
     padding: '1.5rem',
-    height: '200%',
+    height: '140%',
 };
 
 const imageStyle = {

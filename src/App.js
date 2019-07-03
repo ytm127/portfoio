@@ -4,6 +4,7 @@ import Side from './components/Side';
 import AboutMe from './components/AboutMe';
 import Intro from './components/Intro';
 import Timeline from './components/Timeline';
+import Footer from './components/Footer';
 
 function App() {
   return (
